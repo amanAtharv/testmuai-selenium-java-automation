@@ -12,7 +12,7 @@ import org.testng.annotations.*;
 
 import java.util.HashMap;
 
-public class FirstTest {
+public class FirstParallelTest {
     String username = "amankumarjnvk";
     String accesskey = "LT_TBTiFHwz5ABJ2cTn7grpxFuKj5vnyRdjcEStbpRCkfeGHFT";
     static RemoteWebDriver driver = null;
@@ -56,7 +56,7 @@ public class FirstTest {
         }
     }
     private void setUp() {
-        
+
         ChromeOptions browserOptions = new ChromeOptions();
         browserOptions.setPlatformName("Windows 10");
         browserOptions.setBrowserVersion("latest");

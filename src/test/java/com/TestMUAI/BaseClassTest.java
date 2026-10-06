@@ -1,7 +1,7 @@
 package com.TestMUAI;
 
-import testng.annotations.Test;
-import testng.asserts.Assert;
+import org.testng.Assert;
+import org.testng.annotations.*;
 
 public class BaseClassTest {
     @BeforeClass
